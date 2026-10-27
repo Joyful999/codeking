@@ -45,20 +45,6 @@ codeking/
 └── robots.txt
 ```
 
-## Before going live
-
-1. **Images** — replace the icon-based placeholder tiles (portrait, project cards) in
-   `images/profile`, `images/projects`, etc. with real photography and screenshots.
-2. **Resume PDF** — add the real file to `assets/resume/Joyful-Lemabari-Resume.pdf`
-   (referenced by the "Download Resume" buttons).
-3. **Links** — update the `#` placeholders for GitHub, LinkedIn, X, and each project's
-   repo/demo links in `js/projects.js` and the header/footer social icons.
-4. **Domain** — the canonical URLs, Open Graph tags, JSON-LD, and sitemap all assume
-   `https://codeking.dev`; update to your real domain.
-5. **Contact form backend** — `js/contact.js` currently validates and simulates a send.
-   Wire the `fetch()` call to your actual mail/API endpoint (e.g. Formspree, a serverless
-   function, or your own backend) to deliver real messages.
-6. **Favicon** — add real icon files to `favicon/`.
 
 ## Notes on design
 
