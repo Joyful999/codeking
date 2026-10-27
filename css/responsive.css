@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 1080px) {
+  .about__grid { grid-template-columns: 1fr; }
+  .about__visual { max-width: 360px; margin-inline: auto; }
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-grid, .projects-grid, .cert-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer__grid { grid-template-columns: 1fr 1fr; }
+  .resume-panel { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 860px) {
+  .nav, .header__actions .theme-toggle ~ .nav { }
+  .nav__list { display: none; }
+  .nav-toggle { display: flex; }
+  .hero__content { grid-template-columns: 1fr; text-align: center; }
+  .hero__kicker, .hero__cta, .hero__socials { justify-content: center; }
+  .hero__desc { margin-inline: auto; }
+  .hero__visual { order: -1; margin-bottom: var(--space-8); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .nav.is-open {
+    display: flex; position: fixed; inset: 68px var(--space-6) auto var(--space-6);
+    flex-direction: column; background: var(--bg-elevated); border: 1px solid var(--border-soft);
+    border-radius: var(--radius-md); padding: var(--space-6); box-shadow: var(--shadow-soft); z-index: 890;
+  }
+  .nav.is-open .nav__list { display: flex; flex-direction: column; gap: var(--space-4); }
+}
+
+@media (max-width: 640px) {
+  .container { padding-inline: var(--space-4); }
+  .section { padding-block: var(--space-16); }
+  .skills-grid { grid-template-columns: 1fr 1fr; }
+  .services-grid, .projects-grid, .cert-grid { grid-template-columns: 1fr; }
+  .footer__grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .back-to-top { right: var(--space-4); bottom: var(--space-4); }
+  .floating-badge { padding: 8px 10px; font-size: 0.65rem; }
+  .floating-badge--1 { left: 0; }
+  .floating-badge--2 { right: 0; }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | CodeKing — Joyful Lemabari</title>
+<meta name="description" content="Get in touch with Joyful Lemabari of CodeKing to discuss your next web development project.">
+<link rel="canonical" href="https://codeking.dev/contact.html">
+<meta property="og:title" content="Contact | CodeKing">
+<meta property="og:description" content="Start a conversation about your next project.">
+<link rel="icon" href="images/logos/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/utilities.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="loader__mark"></div></div>
+<div class="scroll-progress"></div>
+<div class="cursor-dot"></div><div class="cursor-glow"></div>
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="index.html" class="brand"><span class="brand__mar"></span> <img src="images/logos/logo.png" alt="CodeKing Logo" style="height: 70px; width: 90px;"></a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="projects.html" class="nav__link">Projects</a></li>
+        <!-- <li><a href="resume.html" class="nav__link">Resume</a></li> -->
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><i class="fa-solid fa-sun"></i></button>
+      <a href="contact.html" class="btn btn-primary btn-sm magnetic">Hire Me</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="hero__bg"><div class="grid-overlay"></div><span class="blob blob--1"></span><span class="blob blob--2"></span></div>
+    <div class="container" style="position:relative;">
+      <p class="breadcrumbs"><a href="index.html">Home</a> / Contact</p>
+      <h1>Let's Turn Your Vision Into  <span class="text-gradient">Reality.</span></h1>
+      <p style="color:var(--text-secondary);max-width:56ch;margin-inline:auto;">Let's create a digital solution that drives your success.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">Contact Information</span>
+        <h2 style="font-family:var(--font-heading);font-size:var(--fs-2xl);margin-block:var(--space-4);">CodeKing</h2>
+        <p style="color:var(--text-secondary);">Reach out directly, or use the form — whichever is easier for you.</p>
+        <div class="contact-info-list">
+          <div class="contact-info-item"><i class="fa-solid fa-envelope"></i><div>lemabarijoyful@gmail.com<span>Email</span></div></div>
+          <div class="contact-info-item"><i class="fa-solid fa-phone"></i><div>+234 907 901 7040<span>Phone</span></div></div>
+          <div class="contact-info-item"><i class="fa-solid fa-location-dot"></i><div>Port Harcourt, Nigeria<span>Location</span></div></div>
+          <div class="contact-info-item"><i class="fa-brands fa-linkedin-in"></i><div><a href="https://www.linkedin.com/in/joyful-lemabari-36b418353/">linkedin.com/in/joyfullemabari</a><span>LinkedIn</span></div></div>
+          <div class="contact-info-item"><i class="fa-brands fa-github"></i><div><a href="https://github.com/Joyful999">github.com/codeking</a><span>GitHub</span></div></div>
+          <div class="contact-info-item"><i class="fa-solid fa-globe"></i><div><a href="index.html">codeking.dev</a><span>Portfolio</span></div></div>
+        </div>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127223.1315584157!2d6.922393218852799!3d4.817576558221565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cea39f2c48e3%3A0x53562bdd7d8832db!2sPort%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1786107119757!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+
+      <div class="glass card reveal">
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">FULL NAME *</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+              <div class="form-error" data-error-for="fullName"></div>
+            </div>
+            <div class="form-group">
+              <label for="email">EMAIL ADDRESS *</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required>
+              <div class="form-error" data-error-for="email"></div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">PHONE *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+234 000 000 0000" required>
+              <div class="form-error" data-error-for="phone"></div>
+            </div>
+            <div class="form-group">
+              <label for="country">COUNTRY OF RESIDENCE *</label>
+              <input type="text" id="country" name="country" placeholder="e.g. Canada" required>
+              <div class="form-error" data-error-for="country"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="services">I'M INTERESTED IN *</label>
+            <select id="services" name="services" required>
+              <option value="">Select an option</option>
+              <option value="Website Development">Website Development</option>
+              <option value="Custom Web Application Development">Custom Web Application Development</option>
+              <option value="Backend Development &amp; API Integration">Backend Development &amp; API Integration</option>
+              <option value="Frontend Development">Frontend Development</option>
+              <option value="Database Design &amp; Management">Database Design &amp; Management</option>
+              <option value="Website Performance &amp; SEO Optimization">Website Performance &amp; SEO Optimization</option>
+              <option value="Website Maintenance &amp; Support">Website Maintenance &amp; Support</option>
+              <option value="Web Hosting &amp; Deployment">Web Hosting &amp; Deployment</option>
+              <option value="Software Consulting &amp; Digital Solutions">Software Consulting &amp; Digital Solutions</option>
+            </select>
+            <div class="form-error" data-error-for="services"></div>
+          </div>
+          <div class="form-group">
+            <label for="message">WRITE YOUR MESSAGE *</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+            <div class="form-error" data-error-for="message"></div>
+          </div>
+          <button type="submit" class="btn btn-primary magnetic" style="width:100%;">Send Message</button>
+          <div class="form-status" role="status"></div>
+        </form> <br>
+        <p>Have a project in mind or looking for a trusted software development partner? We'd love to hear about your ideas. Whether you need a business website, a custom web application, or expert technical guidance, CodeKing is here to help. Reach out today, and let's create a digital solution that drives your success.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__about">
+        <a href="index.html" class="brand"><span class="brand__mar"></span> <img src="images/logos/logo.png" alt="CodeKing Logo" style="height: 70px; width: 90px;"></a>
+        <p>Building innovative websites and web applications that help businesses grow, improve efficiency, and create lasting digital experiences through modern technology.</p>
+        <div class="hero__socials">
+          <a href="https://github.com/Joyful999" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/joyful-lemabari-36b418353/" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <!-- <a href="#" class="social-btn" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a> -->
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <!-- <li><a href="resume.html">Resume</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Website Development</a></li>
+          <li><a href="services.html">Custom Web Application Development</a></li>
+          <li><a href="services.html">Backend Development &amp; API Integration</a></li>
+          <li><a href="services.html">Frontend Development</a></li>
+        </ul>
+      </div>
+      
+      <div>
+        <!-- <h4>Services</h4> -->
+        <ul>
+          
+          <li><a href="services.html">Database Design &amp; Management</a></li>
+          <li><a href="services.html">Website Performance &amp; SEO Optimization</a></li>
+          <li><a href="services.html">Website Maintenance &amp; Support</a></li>
+          <li><a href="services.html">Web Hosting &amp; Deployment</a></li>
+          <li><a href="services.html">Software Consulting &amp; Digital Solutions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      </span> Designed & Developed by CodeKing.</span>
+      <span>© <span id="currentYear">2026</span> CodeKing. All rights reserved.</span>
+      <span><a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms &amp; Conditions</a></span>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/main.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
